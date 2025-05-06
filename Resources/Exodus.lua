@@ -3972,7 +3972,7 @@ function library:Playerlist(max_players)
         create_player(plr)
     end
 
-    self.Playerlist = {button_size = 0, labels = 0, object = list, toggled = false}
+    self.Playerlist = {button_size = 0, labels = 0, object = list, toggled = true}
 
     function library.Playerlist:Button(options)
         utility.format(options)
